@@ -12,4 +12,6 @@ class School
     @grade = grade
     @roster["#{grade}"] = []
     @roster["#{grade}"] << name
+  end
+  
 end
