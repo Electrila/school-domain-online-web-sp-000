@@ -4,6 +4,8 @@ class School
     @name = name
   end
   
+  ROSTER = {}
+  
   def add_student(name, grade)
     
   
